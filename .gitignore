@@ -1,1 +1,9 @@
-.exe
+# Ignore compiled executables
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore VS Code folder (optional)
+.vscode/
