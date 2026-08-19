@@ -8,7 +8,7 @@ int main()
     bool isPrime = true;
     cout << "Enter a number: " << endl;
     cin >> n;
-    for (int i=2; i <= n - 1; i++)
+    for (int i=2; i*i <= n; i++) // i should be from 2 to root(n)
     {
         if (n % i == 0)
         {
